@@ -33,3 +33,9 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.build.release_type=release \
+    ro.vendor.build.real.device=true \
+    vendor.product.device=guacamoleb \
+    vendor.product.manufacturer=OPD
