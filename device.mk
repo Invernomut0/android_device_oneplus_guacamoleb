@@ -30,3 +30,9 @@ PRODUCT_PACKAGES += \
 # Tri-state-key-calibrate_daemon
 PRODUCT_PACKAGES += \
     tri-state-key-calibrate_daemon
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.build.release_type=release \
+    ro.vendor.build.real.device=true \
+    vendor.product.device=guacamoleb \
+    vendor.product.manufacturer=OPD
