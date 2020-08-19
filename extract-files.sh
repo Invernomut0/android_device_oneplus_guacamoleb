@@ -28,6 +28,6 @@ export DEVICE=guacamoleb
 export DEVICE_COMMON=sm8150-common
 export VENDOR=oneplus
 
-export DEVICE_BRINGUP_YEAR=2020
+export DEVICE_BRINGUP_YEAR=2019
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

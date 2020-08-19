@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_guacamoleb.mk
+    $(LOCAL_DIR)/havoc_guacamoleb.mk
+
+COMMON_LUNCH_CHOICES := \
+     havoc_guacamoleb-userdebug \
+     havoc_guacamoleb-eng \
+     havoc_guacamoleb-user
