@@ -382,8 +382,11 @@
     <!-- The default peak refresh rate for a given device. Change this value if you want to allow
          for higher refresh rates to be automatically used out of the box -->
     <integer name="config_defaultPeakRefreshRate">60</integer>
-    
+
     <!-- Whether device has dash charging support -->
     <bool name="config_hasDashCharger">true</bool>
+
+    <!-- Whether device has notification LED -->
+    <bool name="config_hasNotificationLed">false</bool>
 
 </resources>
