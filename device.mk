@@ -9,6 +9,9 @@ $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oneplus/guacamoleb/guacamoleb-vendor.mk)
 
+# Use OnePlus Settings from Havoc
+$(call inherit-product, device/oneplus/settings/common.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
