@@ -14,6 +14,9 @@ $(call inherit-product, device/oneplus/guacamoleb/device.mk)
 # Inherit some common RR stuff.
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
+# Inherit GApps
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := rr_guacamoleb
 PRODUCT_DEVICE := guacamoleb
