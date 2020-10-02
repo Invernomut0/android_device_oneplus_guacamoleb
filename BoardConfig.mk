@@ -11,6 +11,9 @@ DEVICE_PATH := device/oneplus/guacamoleb
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OnePlus7
 
+# Kernel
+TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
+
 # Display
 TARGET_SCREEN_DENSITY := 480
 
